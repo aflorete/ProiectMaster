@@ -1,0 +1,39 @@
+﻿@{ ViewData["Title"] = "Contact"; }
+
+<h1><b>Thank you for visiting us!</b></h1>
+<p>Leave us a message! We will come back as soon as possible! </p>
+
+<div class="container" style="border-radius: 5px; background-color: #007777; padding: 20px; ">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input style=" width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input style=" width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country" style=" width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">England</option>
+            <option value="usa">Ireland</option>
+            <option value="usa">Romania</option>
+            <option value="usa">Denmark</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style=" width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical" type="height:100px"></textarea>
+
+        <input type="submit" value="Submit" style="background-color: #c7bbc9; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; ">
+    </form>
+</div>
+
+<form>
+    <h1><b>You can also find us at:</b></h1>
+    <p><b>Email:</b> impacthub@worldwide.com </p>
+    <p><b>Phone:</b> +4072.257.9777 </p>
+    <p><b>Address:</b> Fifth Avenue, 17 </p>
+    <img src="/img/impacthub.png" style="width:80%">
+</form>

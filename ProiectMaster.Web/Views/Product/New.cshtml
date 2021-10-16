@@ -1,0 +1,9 @@
+﻿@model ProductVM
+
+@{
+    ViewData["Title"] = "Create a Co-Working Space";
+}
+
+@{ ViewBag.IsNew = true;}
+
+@await Html.PartialAsync(@"../Shared/Components/_Product.cshtml")
